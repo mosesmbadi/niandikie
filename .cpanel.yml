@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/niandike/repositories/niandikie/
     - index.html $DEPLOYPATH
     - assets\css theme.css $DEPLOYPATH
