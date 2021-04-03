@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - index.html $DEPLOYPATH
+    - assets\css theme.css $DEPLOYPATH
